@@ -1,0 +1,27 @@
+Package: flightpath
+Type: Package
+Title: Independent package for use with the "OpenSky Network" API
+Version: 0.1.0
+Authors@R: c(person("Jalen", "Jiang", email = "jyj@uchicago.edu", role = c("cre", "aut")), 
+    person("Adrian", "Przezdziecki", email = "adrianprzez99@gmail.com", role = "aut"))
+Description: Track and record flights live. Use interpolation to draw paths from event coordinates. 
+    Linear reference paths to populate path segments with event attributes.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+    httr,
+    sf,
+    dplyr,
+    jsonlite,
+    smoothr,
+    FNN,
+    spData,
+    tmap,
+    leaflet,
+    openskyr,
+    tidyr,
+    tidyverse,
+    utils,
+    lwgeom
